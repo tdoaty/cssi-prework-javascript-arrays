@@ -181,7 +181,7 @@ var removedFishes = myFish.splice(0, 2, 'parrot', 'anemone', 'blue');
 
 JavaScript's `forEach` function will help you to iterate - repeat an action - through an array. The forEach method executes a provided function once per array element.
 
-The first argument in the example function below is the variable name for currentValue, letter. 
+The first argument in the example function below is the variable name for currentValue, letter.
 
 ```javascript
 var letters = ["z", "y", "x", "w", "v", "u", "t", "s"];
@@ -222,6 +222,7 @@ letters.forEach(function(letter, index) {
 
 + **You Do:** Write a function `iterateArray` that accepts an array of numbers as a parameter. The body should also contain an empty array, stored in the variable `newNums`. You should iterate over the array of numbers, add 5 to each number, and store the larger number in the array `newNums`. The function should return the `newNums` array.
 
+Open `SpecRunner.html` to make sure you've gotten all of the array tests passing!
 
 ## Resources
 
